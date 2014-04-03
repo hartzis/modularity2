@@ -1,0 +1,55 @@
+/* ADD YOUR STYLES HERE */
+
+.container-center {
+	text-align: center;
+}
+.plush-padding {
+	padding: 18px;
+	display: inline-block;
+	vertical-align: top;
+}
+.plush-padding-vert {
+	padding: 80px 0;
+}
+.fancy-list {
+	list-style: none;
+}
+.fancy-list>li {
+	display: inline-block;
+}
+.da-button {
+	background-color: rgb(230,130,130);
+	color: white;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	border: 0;
+}
+.da-button:hover {
+	background-color: rgb(180,180,180);
+}
+.da-big-button {
+	padding: 15px 35px;
+	font-size: 22px;
+}
+.da-med-button {
+	padding: 8px 25px;
+}
+.da-small-button {
+	padding: 5px 5px;
+}
+.container-button {
+	overflow: inherit;
+}
+.nav-list {
+	border-radius: 5px;
+	overflow: hidden;
+	display: inline-block;
+	padding: 0;
+}
+.nav-list>li {
+	display: inline-block;
+}
+li>.da-button {
+	border-radius: 0;
+}
