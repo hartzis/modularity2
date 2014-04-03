@@ -66,11 +66,12 @@ li>.da-button {
 	padding: 5px;
 	margin: 5px;
 	color: rgb(230,130,130);
-}
-.pagination-links.off {
 	border-bottom: 3px solid rgb(230,130,130);
 }
-.pagination-links.on {
+.pagination>li:first-child a, .pagination>li:last-child a{
+	border-bottom: none;	
+}
+.pagination-links.active {
 	color: rgb(200,200,200);
 	border-bottom: 3px solid rgb(200,200, 200);
 }
@@ -93,4 +94,32 @@ li>.da-button {
 .comment-img {
 	float: left;
 	padding: 5px
+}
+.tabs {
+	margin: 0;
+	padding-left: 20px;
+}
+.tabs>li {
+	display: inline-block;
+	font-size: 18px;
+	border: 1px solid blue;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-bottom: none;
+	padding: 5px;
+	position: relative;
+	bottom: -1px;
+	margin: 0 5px;
+}
+.tabs a {
+	text-decoration: none;
+	color: blue;
+}
+.tabs .active-tab {
+	border-bottom: 1px solid white;
+}
+.t-info {
+	border: 1px solid blue;
+	padding: 10px;
+	border-radius: 8px;
 }
