@@ -1,4 +1,8 @@
 /* ADD YOUR STYLES HERE */
+ul, ol {
+	list-style: none;
+}
+
 
 .container-center {
 	text-align: center;
@@ -10,9 +14,6 @@
 }
 .plush-padding-vert {
 	padding: 80px 0;
-}
-.fancy-list {
-	list-style: none;
 }
 .fancy-list>li {
 	display: inline-block;
@@ -52,4 +53,28 @@
 }
 li>.da-button {
 	border-radius: 0;
+}
+.pagination {
+	padding: 8px
+}
+.pagination>li {
+	display: inline-block;
+}
+.pagination-links {
+	font-size: 18px;
+	text-decoration: none;
+	padding: 5px;
+	margin: 5px;
+	color: rgb(230,130,130);
+}
+.pagination-links.off {
+	border-bottom: 3px solid rgb(230,130,130);
+}
+.pagination-links.on {
+	color: rgb(200,200,200);
+	border-bottom: 3px solid rgb(200,200, 200);
+}
+.pagination-links:hover {
+	color: rgb(230,200,200);
+	border-color: rgb(230,200, 200);
 }
