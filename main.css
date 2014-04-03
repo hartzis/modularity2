@@ -78,3 +78,19 @@ li>.da-button {
 	color: rgb(230,200,200);
 	border-color: rgb(230,200, 200);
 }
+.comment {
+	overflow: hidden;
+}
+.comment-content {
+	padding: 5px 0;
+}
+.comment-content>time {
+	color: rgb(150,150,150);
+	font-size: 12px;
+	padding: 5px
+}
+
+.comment-img {
+	float: left;
+	padding: 5px
+}
